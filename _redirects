@@ -1,12 +1,12 @@
-# Redirect product pages to product.html
-/product.html      /product.html      200
+# # Redirect product pages to product.html
+# /product.html      /product.html      200
 
-# Redirect cart page
-/cart.html         /cart/index.html   200
+# # Redirect cart page
+# /cart.html         /cart/index.html   200
 
-# Redirect home page just in case
-/home.html         /index.html       200
+# # Redirect home page just in case
+# /home.html         /index.html       200
 
-# Catch-all: redirect anything else to index.html (optional, for SPA-style routing)
-# Make sure this is the last rule
-/*                 /index.html       200
+# # Catch-all: redirect anything else to index.html (optional, for SPA-style routing)
+# # Make sure this is the last rule
+# /*                 /index.html       200
