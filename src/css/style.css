@@ -117,7 +117,7 @@ button {
 /* End utility classes */
 
 /* Cart icon styles */
-.cart {
+/* .cart {
   padding-top: 1em;
   position: relative;
   text-align: center;
@@ -129,7 +129,7 @@ button {
 
 .cart:hover svg {
   fill: gray;
-}
+} */
 
 /* End cart icon styles */
 
@@ -263,5 +263,23 @@ footer {
 }
 
 
+/* Cart icon styles */
+.cart {
+  padding-top: 1em;
+  position: relative;
+  text-align: center;
+}
 
+.cart-icon {
+  width: 32px;
+  height: auto;
+  vertical-align: middle;
+  transition: opacity 0.2s ease;
+}
+
+.cart-icon:hover {
+  opacity: 0.7;
+}
+
+/* End cart icon styles */
 
